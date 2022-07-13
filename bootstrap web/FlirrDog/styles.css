@@ -1,0 +1,154 @@
+#title{
+    background-color:#ff4c68;
+    
+}
+.container-fluid{
+    padding: 3% 12% 9%;
+    
+}
+#my-h1{
+    font-family:Montserrat;
+    font-size:2.5rem; 
+    line-height:1.5; 
+    font-weight:900; 
+    color:white;
+    margin-top: 70px;
+}
+#iphone img{
+    margin-top: 100px;
+    width: 250px;
+    transform: rotate(20deg);
+    position: absolute;
+    left: 20%;
+}
+
+/* Navbar*/
+
+.navbar-collapse{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/*features*/
+
+#features{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+#features h3{
+    font-weight: bold;
+}
+#features p{
+    color:#8f8f8f;
+}
+#features .col-lg-4 h3,p{
+    padding:2% 15%;
+}
+
+/* Download btns */
+.download_btn{
+    margin: 100px 0px 0px 20px ;
+}
+
+.icon{
+    color:#ff4c68;
+}
+
+.icon:hover {
+    color:#ce2f47;
+}
+
+/*Testimonial*/
+
+#testimonials{
+    background-color: #ff4c68;
+    text-align: center;
+    color:#fff;
+}
+
+#testimonials h2{
+     line-height: 1.5;
+    font-weight: 900;
+    padding:7% 15%;
+    
+}
+
+#testimonials img{
+    width: 200px;
+    border-radius: 50%;
+    margin: 6% 3%;
+}
+
+
+/*Press*/
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+
+}
+.pre_logo img{
+    width: 250px;
+    padding: 3%;
+    
+}
+
+/*pricing*/
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+
+#pricing h2,h3{
+    font-weight: 900;
+    font-family: Montserrat;
+}
+
+.price-col{
+    padding: 2%;
+}
+
+
+/*Footer*/
+#cta{
+    background-color: #ff4c68;
+    color:#fff;
+    text-align: center;
+    padding: 7% 17%;
+    
+}
+#cta button{
+    margin: 100px 40px 100px ;
+}
+#cta h3{
+    font-family: Montserrat;
+}
+
+/*copyright*/
+#footer {
+    text-align: center;
+    margin-top: 100px;
+}
+#footer .f_icon{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+
+/*Responsiveness*/
+@media (max-width:991px) {
+    
+    #title{
+        text-align: center;
+    }
+
+    #iphone img{
+        position: static;
+        transform: rotate(0);
+        margin-left: 70px;
+    }
+    
+}

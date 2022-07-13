@@ -1,0 +1,15 @@
+*{
+    margin:0px;
+}
+body{
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+a{
+    text-decoration: none;
+}
+
+.menu{
+    position: absolute;
+    
+}
